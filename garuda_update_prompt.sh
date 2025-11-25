@@ -5,14 +5,12 @@ isZenityInstalled() {
 }
 
 showUpdatePrompt() {
-  zenity --question --title="Garuda Update" --text="Do you want to update Garuda Linux and gaming tools now?" --width=300
+  zenity --question --title="Garuda Update" --text="Do you want to update Garuda Linux now?" --width=300
 }
 
 runUpdateIfAgreed() {
   if [ $? -eq 0 ]; then
-    konsole --hold -e bash -c "garuda-update;
-                               winetricks --self-update;
-                               yay -Syu lutris --noconfirm;"
+    konsole --hold -e bash -c "yay --noconfirm;"
   fi
 }
 
