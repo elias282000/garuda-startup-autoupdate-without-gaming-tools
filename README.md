@@ -11,8 +11,8 @@ To set up the Garuda Update Prompt script, follow these steps:
 Clone the repository to your local machine:
 
 ```sh
-git clone https://github.com/elias282000/garuda-startup-autoupdate-without-gaming-tools.git
-cd garuda-startup-autoupdate-without-gaming-tools
+git clone https://github.com/MatasBudriunas/garuda-startup-autoupdate.git
+cd garuda-startup-autoupdate
 ```
 
 ### 2. Make the Installer Script Executable
